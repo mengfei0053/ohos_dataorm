@@ -1,0 +1,264 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "dataORM"
+    },
+    {
+      "name": "Composite_Primary_Key",
+      "value": "Composite Primary Key"
+    },
+    {
+      "name": "Compound_Index",
+      "value": "Compound Index"
+    },
+    {
+      "name": "Data_nesting",
+      "value": "Data nesting"
+    },
+    {
+      "name": "Batch_insertion_or_update",
+      "value": "Batch insertion or update"
+    },
+    {
+      "name": "Customize_database_path",
+      "value": "Custom database path"
+    },
+    {
+      "name": "Multiple_database",
+      "value": "Test multiple database scenarios"
+    },
+    {
+      "name": "Load_ID_2",
+      "value": "Load (cache with ID 2)"
+    },
+    {
+      "name": "Save_No_PK",
+      "value": "Save (add primary key when there is no primary key)"
+    },
+    {
+      "name": "Tips",
+      "value": "Note: CreatiTime is an inherited property, and the current page can verify that inherited properties support adding, deleting, modifying, and querying.\n\t1、'Modify creatTime' can fix the value to '12/12/2012, 12:12:12 PM';\n\t2、Delete data with '12/12/2012, 12:12:12 PM' for 'Delete by createTime';"
+    },
+    {
+      "name": "Modify_creatTime",
+      "value": "Modify creatTime"
+    },
+    {
+      "name": "Delete_createTime",
+      "value": "Delete createTime"
+    },
+    {
+      "name": "Delete",
+      "value": "Delete"
+    },
+    {
+      "name": "Update",
+      "value": "Update"
+    },
+    {
+      "name": "Create_DB",
+      "value": "Create DB"
+    },
+    {
+      "name": "Insert_Data",
+      "value": "Insert Data"
+    },
+    {
+      "name": "Backup_DB",
+      "value": "Backup DB"
+    },
+    {
+      "name": "Restore_DB",
+      "value": "Restore DB"
+    },
+    {
+      "name": "Select_Data",
+      "value": "Select Data"
+    },
+    {
+      "name": "Upgrade_DB",
+      "value": "Upgrade DB"
+    },
+    {
+      "name": "Insert_Data_After_Upgrade",
+      "value": "Insert Data After Upgrade"
+    },
+    {
+      "name": "Select_Data_After_Upgrade",
+      "value": "Select Data After Upgrade"
+    },
+    {
+      "name": "Select_Backup_Data_After_Upgrade",
+      "value": "Select Backup DB Data After Upgrade DB"
+    },
+    {
+      "name": "Import_Data",
+      "value": "Import Data"
+    },
+    {
+      "name": "Import_Data_Result",
+      "value": "Import Data Result:"
+    },
+    {
+      "name": "Annotation_TIPS",
+      "value": "After clicking 'add Data', the results of the remaining buttons will be displayed"
+    },
+    {
+      "name": "Query_added_data",
+      "value": "Query the added data"
+    },
+    {
+      "name": "Replace_node_data",
+      "value": "Replace node database data"
+    },
+    {
+      "name": "Save_node_data",
+      "value": "Save node database data"
+    },
+    {
+      "name": "inertOrReplace_same_object",
+      "value": "inertOrReplace:Changing the text value for the same object"
+    },
+    {
+      "name": "inertOrReplace_new_object",
+      "value": "inertOrReplace:New object every time the text value is changed"
+    },
+    {
+      "name": "Add_nested_data",
+      "value": "Add nested data"
+    },
+    {
+      "name": "Update_nested_data",
+      "value": "Update nested data"
+    },
+    {
+      "name": "Query_nested_data",
+      "value": "Query nested data"
+    },
+    {
+      "name": "Delete_nested_data",
+      "value": "Delete nested data"
+    },
+    {
+      "name": "Insert_Convert_data",
+      "value": "Insert data with @Convert"
+    },
+    {
+      "name": "Update_Convert_data",
+      "value": "Update data with @Convert"
+    },
+    {
+      "name": "Query_Convert_data",
+      "value": "Query data with @Convert"
+    },
+    {
+      "name": "Delete_data",
+      "value": "Delete data"
+    },
+    {
+      "name": "Insert_data_success",
+      "value": "Insert data success"
+    },
+    {
+      "name": "Update_data_success",
+      "value": "Update data success"
+    },
+    {
+      "name": "Query_data_success",
+      "value": "Query data success"
+    },
+    {
+      "name": "Delete_data_success",
+      "value": "Delete data success"
+    },
+    {
+      "name": "Insert_a_data_entry",
+      "value": "Insert a data entry"
+    },
+    {
+      "name": "Update_a_data_entry",
+      "value": "Update a data entry"
+    },
+    {
+      "name": "Query_all_data",
+      "value": "Query all data"
+    },
+    {
+      "name": "Batch_insert",
+      "value": "Batch insert"
+    },
+    {
+      "name": "Delete_OPPO",
+      "value": "Delete data named OPPO"
+    },
+    {
+      "name": "Batch_insert_or_update",
+      "value": "Batch insert or update"
+    },
+    {
+      "name": "Conditional_Query",
+      "value": "Conditional Query"
+    },
+    {
+      "name": "Insert_DB1",
+      "value": "Insert data to DB1"
+    },
+    {
+      "name": "Update_DB1",
+      "value": "Update data to DB1"
+    },
+    {
+      "name": "Query_DB1",
+      "value": "Query data to DB1"
+    },
+    {
+      "name": "Delete_DB1",
+      "value": "Delete data to DB1"
+    },
+    {
+      "name": "Insert_DB2",
+      "value": "Insert data to DB2"
+    },
+    {
+      "name": "Update_DB2",
+      "value": "Update data to DB2"
+    },
+    {
+      "name": "Query_DB2",
+      "value": "Query data to DB2"
+    },
+    {
+      "name": "Delete_DB2",
+      "value": "Delete data to DB2"
+    },
+    {
+      "name": "observed_btn_text",
+      "value": "the use of Observed"
+    },
+    {
+      "name": "click_parent",
+      "value": "click parent component"
+    },
+    {
+      "name": "click_child",
+      "value": "click child component"
+    },
+    {
+      "name": "show_sqlite_data",
+      "value": "displays database operation data"
+    },
+    {
+      "name": "show_child_area",
+      "value": "subcomponent display area"
+    }
+  ]
+}

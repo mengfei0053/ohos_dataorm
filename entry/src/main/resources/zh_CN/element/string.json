@@ -1,0 +1,264 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "dataORM"
+    },
+    {
+      "name": "Composite_Primary_Key",
+      "value": "复合主键"
+    },
+    {
+      "name": "Compound_Index",
+      "value": "复合索引"
+    },
+    {
+      "name": "Data_nesting",
+      "value": "数据嵌套"
+    },
+    {
+      "name": "Batch_insertion_or_update",
+      "value": "批量插入更新"
+    },
+    {
+      "name": "Customize_database_path",
+      "value": "自定义数据库路径"
+    },
+    {
+      "name": "Multiple_database",
+      "value": "多数据库"
+    },
+    {
+      "name": "Load_ID_2",
+      "value": "Load(id 2的缓存)"
+    },
+    {
+      "name": "Save_No_PK",
+      "value": "save(没主键时新增)"
+    },
+    {
+      "name": "Tips",
+      "value": "注：createTime为继承属性，当前页面可以验证继承属性支持增删改查。\n\t1、修改createTime可以将createTime修改为'12/12/2012, 12:12:12 PM'固定值；\n\t2、删除byCreateTime删除createTime为'12/12/2012, 12:12:12 PM'的数据。;"
+    },
+    {
+      "name": "Modify_creatTime",
+      "value": "Modify creatTime"
+    },
+    {
+      "name": "Delete_createTime",
+      "value": "Delete createTime"
+    },
+    {
+      "name": "Delete",
+      "value": "删除"
+    },
+    {
+      "name": "Update",
+      "value": "修改"
+    },
+    {
+      "name": "Create_DB",
+      "value": "创建数据库"
+    },
+    {
+      "name": "Insert_Data",
+      "value": "添加数据"
+    },
+    {
+      "name": "Backup_DB",
+      "value": "备份数据库"
+    },
+    {
+      "name": "Restore_DB",
+      "value": "从备份中恢复"
+    },
+    {
+      "name": "Select_Data",
+      "value": "查询数据"
+    },
+    {
+      "name": "Upgrade_DB",
+      "value": "数据库升级"
+    },
+    {
+      "name": "Insert_Data_After_Upgrade",
+      "value": "升级后添加数据"
+    },
+    {
+      "name": "Select_Data_After_Upgrade",
+      "value": "升级后查询数据"
+    },
+    {
+      "name": "Select_Backup_Data_After_Upgrade",
+      "value": "升级后查询备份数据库"
+    },
+    {
+      "name": "Import_Data",
+      "value": "数据导入"
+    },
+    {
+      "name": "Import_Data_Result",
+      "value": "数据导入结果："
+    },
+    {
+      "name": "Annotation_TIPS",
+      "value": "点击 add Data 后展示其余按钮的操作结果"
+    },
+    {
+      "name": "Query_added_data",
+      "value": "查询添加数据"
+    },
+    {
+      "name": "Replace_node_data",
+      "value": "replace node数据库数据"
+    },
+    {
+      "name": "Save_node_data",
+      "value": "save node数据库数据"
+    },
+    {
+      "name": "inertOrReplace_same_object",
+      "value": "inertOrReplace:同一对象更改text值"
+    },
+    {
+      "name": "inertOrReplace_new_object",
+      "value": "inertOrReplace:每次更改text值，都new对象"
+    },
+    {
+      "name": "Add_nested_data",
+      "value": "新增嵌套数据"
+    },
+    {
+      "name": "Update_nested_data",
+      "value": "更改嵌套数据"
+    },
+    {
+      "name": "Query_nested_data",
+      "value": "查询嵌套数据"
+    },
+    {
+      "name": "Delete_nested_data",
+      "value": "删除嵌套数据"
+    },
+    {
+      "name": "Insert_Convert_data",
+      "value": "Convert注解修饰新增数据"
+    },
+    {
+      "name": "Update_Convert_data",
+      "value": "Convert注解修饰更改数据"
+    },
+    {
+      "name": "Query_Convert_data",
+      "value": "Convert注解修饰查询数据"
+    },
+    {
+      "name": "Delete_data",
+      "value": "删除数据"
+    },
+    {
+      "name": "Insert_data_success",
+      "value": "数据添加成功"
+    },
+    {
+      "name": "Update_data_success",
+      "value": "数据更改成功"
+    },
+    {
+      "name": "Query_data_success",
+      "value": "数据查询成功"
+    },
+    {
+      "name": "Delete_data_success",
+      "value": "数据删除成功"
+    },
+    {
+      "name": "Insert_a_data_entry",
+      "value": "插入一条数据"
+    },
+    {
+      "name": "Update_a_data_entry",
+      "value": "更新一条数据"
+    },
+    {
+      "name": "Query_all_data",
+      "value": "查询所有数据"
+    },
+    {
+      "name": "Batch_insert",
+      "value": "批量新增"
+    },
+    {
+      "name": "Delete_OPPO",
+      "value": "删除名字为OPPO的数据"
+    },
+    {
+      "name": "Batch_insert_or_update",
+      "value": "批量新增或更新"
+    },
+    {
+      "name": "Conditional_Query",
+      "value": "条件查询"
+    },
+    {
+      "name": "Insert_DB1",
+      "value": "给数据库1新增数据"
+    },
+    {
+      "name": "Update_DB1",
+      "value": "更改给数据库1数据"
+    },
+    {
+      "name": "Query_DB1",
+      "value": "查询给数据库1数据"
+    },
+    {
+      "name": "Delete_DB1",
+      "value": "删除给数据库1数据"
+    },
+    {
+      "name": "Insert_DB2",
+      "value": "给数据库2新增数据"
+    },
+    {
+      "name": "Update_DB2",
+      "value": "更改给数据库2数据"
+    },
+    {
+      "name": "Query_DB2",
+      "value": "查询给数据库2数据"
+    },
+    {
+      "name": "Delete_DB2",
+      "value": "删除给数据库2数据"
+    },
+    {
+      "name": "observed_btn_text",
+      "value": "Observed的使用"
+    },
+    {
+      "name": "click_parent",
+      "value": "点击父组件"
+    },
+    {
+      "name": "click_child",
+      "value": "点击子组件"
+    },
+    {
+      "name": "show_sqlite_data",
+      "value": "展示数据库操作数据"
+    },
+    {
+      "name": "show_child_area",
+      "value": "子组件显示区域"
+    }
+  ]
+}

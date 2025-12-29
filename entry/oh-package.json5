@@ -1,0 +1,17 @@
+{
+  "license": "Apache License 2.0",
+  "private": "true",
+  "devDependencies": {},
+  "name": "entry",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "module",
+    "buildTool": "hvigor"
+  },
+  "description": "example description",
+  "repository": {},
+  "version": "2.3.2",
+  "dependencies": {
+    "@ohos/dataorm": "file:../library"
+  }
+}

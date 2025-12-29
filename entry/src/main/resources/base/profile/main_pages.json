@@ -1,0 +1,23 @@
+{
+  "src": [
+    "pages/home",
+    "pages/Index",
+    "pages/ExtendsPage",
+    "pages/upgrade",
+    "pages/annotation",
+    "pages/SavePage",
+    "pages/CompositePrimaryKey",
+    "pages/EmbedPage",
+    "pages/customDir",
+    "pages/ConvertPage",
+    "pages/InsertPage",
+    "pages/SyncApi",
+    "pages/MuktiDataViewlibrary",
+    "pages/UnionPrimaryKey",
+    "pages/ObservedAndDataPage",
+    "pages/ObservedAndDataSecPage",
+    "pages/ObservedSinglePage",
+    "pages/ObservedToManyPage",
+    "pages/ObservedToOnePage"
+  ]
+}

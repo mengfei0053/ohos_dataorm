@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2021 Huawei Device Co., Ltd.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+    This is the configuration file template for OpenHarmony OSS Audit Tool, please copy it to your project root dir and modify it refer to OpenHarmony/tools_oat/README.
+
+-->
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="copyrightPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="数据库资源文件，无需添加版权协议说明"
+                    name="add_student_teacher.sql"
+                    type="filename"/>
+                <filteritem
+                    desc="数据库资源文件，无需添加版权协议说明"
+                    name="minimal-entity.sql"
+                    type="filename"/>
+                <filteritem
+                    desc="数据库资源文件，无需添加版权协议说明"
+                    name="minimal-entity.sql1"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="hvigorw"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="hvigorw.bat"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="oh-package.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="entry/oh-package.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="mail/oh-package.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="hvigor/hvigor-wrapper.js"
+                    type="filepath"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="hvigor/hvigor-config.json5"
+                    type="filepath"/>
+                <filteritem
+                        desc="保留源库版权头"
+                        name="library/src/main/ets/core/.*"
+                        type="filepath"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="defaultPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="数据库资源文件，无需添加版权协议说明"
+                    name="add_student_teacher.sql"
+                    type="filename"/>
+                <filteritem
+                    desc="数据库资源文件，无需添加版权协议说明"
+                    name="minimal-entity.sql"
+                    type="filename"/>
+                <filteritem
+                    desc="数据库资源文件，无需添加版权协议说明"
+                    name="minimal-entity.sql1"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="LICENSE文件，无需添加许可头"
+                    name="LICENSE"
+                    type="filepath"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="hvigorw"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="hvigorw.bat"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="oh-package.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="entry/oh-package.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="mail/oh-package.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="hvigor/hvigor-wrapper.js"
+                    type="filepath"/>
+                <filteritem
+                    desc="项目工程默认文件，不需要添加版权头"
+                    name="hvigor/hvigor-config.json5"
+                    type="filepath"/>
+                <filteritem
+                        desc="保留源库版权头"
+                        name="library/src/main/ets/core/.*"
+                        type="filepath"/>
+            </filefilter>
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for copyright header policies">
+                <filteritem type="filepath" name="entry/src/main/resources/base/media/icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="entry/src/main/resources/base/media/back.png" desc="项目工程中已有的图片，未作更改"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/resources/base/media/icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="AppScope/resources/base/media/app_icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="gif/sample.gif" desc="项目效果展示图"/>
+            </filefilter>
+        </filefilterlist>
+    </oatconfig>
+</configuration>
